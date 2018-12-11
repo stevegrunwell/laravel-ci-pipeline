@@ -2,6 +2,16 @@
 
 This repository contains the `Dockerfile` that defines [the `stevegrunwell/laravel-ci-pipeline` Docker image](https://hub.docker.com/r/stevegrunwell/laravel-ci-pipeline/), which aims to provide a sensible image for building Laravel 5.x applications in a CI/CD environment.
 
+## Usage
+
+To pull the image for use locally, you may run the following:
+
+```sh
+$ docker pull stevegrunwell/laravel-ci-pipeline
+```
+
+In CI pipelines, you may reference the image as `stevegrunwell/laravel-ci-pipeline`.
+
 ## License
 
 Copyright 2018 Steve Grunwell
