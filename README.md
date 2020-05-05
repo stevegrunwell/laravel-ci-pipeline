@@ -1,6 +1,6 @@
 # Laravel CI Pipeline
 
-This repository contains the `Dockerfile` that defines [the `stevegrunwell/laravel-ci-pipeline` Docker image](https://hub.docker.com/r/stevegrunwell/laravel-ci-pipeline/), which aims to provide a sensible image for building Laravel 5.x applications in a CI/CD environment.
+This repository contains the `Dockerfile` that defines [the `stevegrunwell/laravel-ci-pipeline` Docker image](https://hub.docker.com/r/stevegrunwell/laravel-ci-pipeline/), which aims to provide a sensible image for building Laravel 7.x applications in a CI/CD environment.
 
 ## Usage
 
