@@ -6,8 +6,8 @@ RUN apt-get update \
     && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get update \
     && apt-get install -yqq g++ git libbz2-dev libcurl4-openssl-dev libicu-dev libpng-dev libpq-dev libxml2-dev \
-        nodejs shellcheck unzip zlib1g-dev \
-    && docker-php-ext-install mbstring pdo_mysql pdo_pgsql curl json intl gd xml zip bz2 opcache bcmath pcntl \
+        nodejs shellcheck unzip zlib1g-dev libzip-dev \
+    && docker-php-ext-install pdo_mysql pdo_pgsql intl gd zip bz2 opcache bcmath pcntl \
     && apt-get upgrade -yqq \
     && apt-get autoremove \
     && apt-get clean \
