@@ -26,6 +26,7 @@ RUN apt-get update \
         zlib1g-dev \
         libzip-dev \
     && docker-php-ext-install \
+        mysqli \
         pdo_mysql \
         pdo_pgsql \
         intl \
