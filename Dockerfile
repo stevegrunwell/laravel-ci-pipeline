@@ -20,6 +20,7 @@ RUN apt-get update \
         postgresql \
         postgresql-client \
         postgresql-contrib \
+        rsync \
         shellcheck \
         subversion \
         unzip \
