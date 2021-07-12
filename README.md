@@ -1,3 +1,7 @@
+> :warning: This repository has been archived and will no longer be maintained.
+>
+> I recommend using [laravelsail/php80-composer](https://hub.docker.com/r/laravelsail/php80-composer) as an alternative, as it's the underlying container for [Laravel Sail](https://laravel.com/docs/master/sail) and is maintained by the Laravel team. @lorisleiva also has a suitable replacement in [lorisleiva/laravel-docker](https://hub.docker.com/r/lorisleiva/laravel-docker).
+
 # Laravel CI Pipeline
 
 This repository contains the `Dockerfile` that defines [the `stevegrunwell/laravel-ci-pipeline` Docker image](https://hub.docker.com/r/stevegrunwell/laravel-ci-pipeline/), which aims to provide a sensible image for building Laravel 7.x applications in a CI/CD environment.
